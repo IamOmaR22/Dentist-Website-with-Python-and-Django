@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b652323-44da-44da-a9fa-0afcec1a798b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/website/templates/booknow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/appointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/booknow.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/booknow.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,14 +44,14 @@
         <counts>
           <entry key="Procfile" value="2" />
           <entry key="css" value="1" />
-          <entry key="html" value="2052" />
+          <entry key="html" value="2063" />
           <entry key="py" value="1875" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="2052" />
+          <entry key="HTML" value="2063" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="1875" />
         </counts>
@@ -70,7 +60,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-52">
@@ -92,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/templates/booknow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="72">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -205,7 +195,6 @@
         <option value="$PROJECT_DIR$/static/website/css/style.css" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/dentist/settings.py" />
-        <option value="$PROJECT_DIR$/website/templates/booknow.html" />
         <option value="$PROJECT_DIR$/website/views.py" />
         <option value="$PROJECT_DIR$/website/urls.py" />
         <option value="$PROJECT_DIR$/website/templates/contact.html" />
@@ -215,6 +204,7 @@
         <option value="$PROJECT_DIR$/website/templates/about.html" />
         <option value="$PROJECT_DIR$/website/templates/base.html" />
         <option value="$PROJECT_DIR$/website/templates/home.html" />
+        <option value="$PROJECT_DIR$/website/templates/booknow.html" />
       </list>
     </option>
   </component>
@@ -437,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/booknow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -489,16 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/appointment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -524,6 +497,23 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/appointment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/booknow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>

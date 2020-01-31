@@ -1,5 +1,7 @@
-
 import os
+import django_heroku     # to host heroku
+import dj_database_url   # to host heroku
+from decouple import config  # to host heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,6 +39,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',       # to host heroku
 ]
 
 ROOT_URLCONF = 'dentist.urls'
@@ -113,6 +116,10 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'  # to host heroku
+
+
 #### for mail
 # myaccount.google.com/apppasswords
 # accounts.google.com/DisplayUnlockCaptcha
@@ -125,3 +132,5 @@ EMAIL_HOST_PASSWORD = 'sumaiya1122334455binte'
 EMAIL_USE_TLS = True
 # EMAIL_USE_SSL = False
 ### Email Settings End ###
+
+django_heroku.settings(locals())

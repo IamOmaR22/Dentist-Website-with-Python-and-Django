@@ -9,4 +9,5 @@ urlpatterns = [
     path('service.html', views.service, name="service"),
     path('pricing.html', views.pricing, name="pricing"),
     path('appointment.html', views.appointment, name="appointment"),
+    path('booknow.html', views.booknow, name="booknow"),
 ]

@@ -70,3 +70,7 @@ def appointment(request):
 
     else:
         return render(request, 'home.html', {})
+
+
+def booknow(request):
+    return render(request, 'booknow.html')

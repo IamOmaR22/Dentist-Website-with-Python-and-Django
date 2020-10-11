@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'o+2p8ctie=ade3$b+l=-)x2#wua8+#j&=)p$5odaud#f4*phb!'
+SECRET_KEY = 'o+2p8ctie=adeomar3$b+l=-)x2#wufaruka8+#j&=)p$5odaud#f4*phb!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -127,8 +127,8 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' 
 ### Email Settings Start ###
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587 # it needs to be different from 8080(Test server)
-EMAIL_HOST_USER = 'sumaiyabinte580@gmail.com'  # dentist email address
-EMAIL_HOST_PASSWORD = 'sumaiya1122334455binte'
+EMAIL_HOST_USER = os.environ.get('EMAIL_USER')  # dentist email address
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD')
 EMAIL_USE_TLS = True
 # EMAIL_USE_SSL = False
 ### Email Settings End ###

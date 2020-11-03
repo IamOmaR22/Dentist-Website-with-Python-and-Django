@@ -18,7 +18,7 @@ def contact(request):
             message_name, # subject
             message, # message
             message_email, # from email
-            ['omarfaruk2468@gmail.com','mehedibinhafiz@gmail.com','mail2ronzu@gmail.com'], # To email
+            ['omarfaruk2468@gmail.com','mehedibinhafiz@gmail.com',], # To email
         )
         ### Send an Email End ###
 

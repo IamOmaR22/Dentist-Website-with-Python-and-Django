@@ -128,12 +128,13 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' 
 # accounts.google.com/DisplayUnlockCaptcha
 # myaccount.google.com/lesssecureapps
 ### Email Settings Start ###
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587 # it needs to be different from 8080(Test server)
 EMAIL_HOST_USER = os.environ.get('EMAIL_USER')  # dentist email address
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD')
 EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'omar@example.com'
 # EMAIL_USE_SSL = False
 ### Email Settings End ###
 
